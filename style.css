@@ -1,0 +1,50 @@
+:root{
+  font-size: 62.5%;
+}
+
+div{
+  width: min(100rem,60%);
+  height: min(200rem, 80%);
+}
+
+.block1{
+  background-color: #000000;
+  position: absolute;
+  bottom: 20rem;
+  right: 10rem;
+  z-index: 1;
+}
+
+.block2{
+  background-color: #313131;
+  box-shadow: 1rem 3rem 3rem rgba(0, 0, 0, 0.9);
+
+  border-radius: 0 0 5rem 9rem;
+  position: absolute;
+  bottom: 2rem;
+  right:  2rem;
+  z-index: 2;
+
+  display: grid;
+  place-items: center
+  ;
+}
+
+article{
+  border-radius: 9rem 9rem 0 0;
+  background-color: aliceblue;
+  padding: 2rem;
+  box-shadow: 1rem 1rem 10rem rgba(124, 118, 118, 0.952);
+}
+
+a{
+  padding: 10rem;
+  color: #313131;
+  font-size: large;
+  font-weight: 700;
+}
+
+a:hover{
+  cursor: pointer;
+  font-weight: 900;
+}

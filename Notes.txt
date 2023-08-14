@@ -1,0 +1,6 @@
+Using
+Box-shadow
+width : min(pixel minimo , tamanho quando for menor que o mínimo)
+height: min(20px, 70%)   ---->| asumir tamanho de altura = 20pixel    
+                       quando a viewport for menor que isso__/
+                                assumir como largura 70% da largura total 
